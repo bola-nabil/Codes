@@ -1,0 +1,150 @@
+*{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    background-image: url("../img/autom.jpg");
+    height: 100vh;
+    background-size: cover;
+    width: 100%;
+}
+.menu .log{
+    position: absolute;
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding-top: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 30px;
+    background-color: #F0FFFF;
+}
+.menu .in .first .ss{
+    width: 350px;
+    height: 60px;
+    background-color: #000080;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin-left: 65px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+    border-radius: 20px;
+}
+.menu .in .first .ss:hover{
+    background-color: #4B0082;
+    cursor: pointer;
+}
+.menu .go a{
+    text-decoration: none;
+}
+.menu .in ul .go{
+    list-style: none;
+    display: inline-flex;
+    margin-top: 33px;
+    margin-left: 150px;
+}
+.menu .in ul .go li{
+   font-size: 35px;
+   margin: 0 10px;
+}
+.go  .fa-facbook{
+    color: #999;
+}
+.go .fa-twitter{
+    color: DeepSkyBlue;
+}
+.go .fa-google{
+    color: #000080;
+}
+.menu .links ul li a{
+    text-decoration: none;
+}
+.continer{
+    padding-left: 50px;
+    margin-top: 37px;
+}
+.do .labl{
+    margin-bottom: 5px;
+}
+.user {
+    font-size: 25px;
+    font-weight: bold;
+    color: grey;
+}
+.useri{
+    width: 250px;
+    height: 30px;
+    border-radius: 8px;
+    padding-left: 10px;
+    font-weight: bold;
+    margin-left: 8px;
+}
+.email{
+    font-size: 25px;
+    font-weight: bold;
+    color: grey;
+}
+.emaili{
+   width: 250px;
+    height: 30px;
+    border-radius: 8px;
+    padding-left: 10px;
+    font-weight: bold;
+    margin-left: 48px;
+}
+.pass{
+    font-size: 25px;
+    font-weight: bold;
+    color: grey;
+}
+.passi{
+    width: 250px;
+    height: 30px;
+    border-radius: 8px;
+    padding-left: 10px;
+    font-weight: bold;
+    margin-left: 8px;
+}
+
+.done {
+    margin-top: 40px;
+}
+.inputs .sav{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.inputs .su,
+.res{
+    width: 150px;
+    height: 50px;
+    font-weight: bold;
+    color: white;
+    padding-top: 3px;
+    border: none;
+    border-radius: 20px;
+    padding-bottom: 3px;
+    cursor: pointer;
+    margin-left: 8px;
+}
+.inputs .su{
+    background-color: #000080;
+}
+.inputs .su:hover{
+    background-color: #4B0082;
+}
+.inputs .res{
+    background-color: #4B0082;
+}
+.inputs .res:hover{
+    background-color: #000080;
+}
